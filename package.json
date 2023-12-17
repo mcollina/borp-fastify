@@ -1,0 +1,23 @@
+{
+  "name": "borp-fastify",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Test Example repo with Borp with Fastify",
+  "scripts": {
+    "build": "tsc",
+    "test": "borp",
+    "start": "npm run build && node dist/server.js"
+  },
+  "keywords": [],
+  "author": "Matteo Collina <hello@matteocollina.com>",
+  "license": "MIT",
+  "dependencies": {
+    "fastify": "^4.25.1",
+    "fastify-tsconfig": "^2.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.4",
+    "borp": "^0.4.2",
+    "typescript": "^5.3.3"
+  }
+}
